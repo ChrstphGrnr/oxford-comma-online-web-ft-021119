@@ -1,7 +1,7 @@
 def oxford_comma(array)
   array_as_string = ""
   if array.length == 1
-    array.each {|word| word}
+    array.join
     else
       array.each do |word|
       word != array[-1] ? array_as_string << word + ", " : array_as_string << " and " + word
