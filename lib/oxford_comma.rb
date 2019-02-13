@@ -1,6 +1,6 @@
 def oxford_comma(array)
   array_as_string = ""
-  if array.length == -1
+  if array.length == 1
     array.each {|word| word}
     else
       array.each do |word|
